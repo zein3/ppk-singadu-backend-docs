@@ -553,7 +553,7 @@
     "/user/{userId}/role/{role}": {
       "post": {
         "tags": ["user-management-controller"],
-        "summary": "Menambahkan role ke user tertentu.",
+        "summary": "Menetapkan role ke user tertentu.",
         "operationId": "assignRole",
         "parameters": [
           {
@@ -1022,7 +1022,7 @@
       },
       "post": {
         "tags": ["problem-type-controller"],
-        "summary": "Membuat \"jenis masalah\" baru",
+        "summary": "Membuat \"jenis masalah\" baru.",
         "operationId": "store",
         "requestBody": {
           "content": {
@@ -1419,7 +1419,7 @@
     "/user/{userId}": {
       "delete": {
         "tags": ["user-management-controller"],
-        "summary": "Menghapus user tertentu",
+        "summary": "Menghapus user tertentu.",
         "operationId": "deleteAccount",
         "parameters": [
           {
